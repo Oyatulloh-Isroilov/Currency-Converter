@@ -1,0 +1,141 @@
+.container-fluid {
+  max-width: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-radius: 10px;
+  background-color: rgb(214, 10, 10);
+}
+
+.currency-app {
+  padding: 35px 30px 35px 30px;
+}
+
+.currency-bar {
+  display: flex;
+}
+
+.currency-amount {
+  display: flex;
+  width: 100%;
+  border: 0;
+  border-radius: 7px;
+  outline: none;
+  color: white;
+  font-size: 17px;
+  background-color: #212529;
+  border-bottom: 3px solid white;
+  -webkit-border-bottom: 3px solid white; 
+  -moz-border-bottom: 3px solid white;
+}
+
+.currency-amount:focus {
+  background-color: #262b30;
+}
+
+.currency-from {
+  display: flex;
+  padding-top: 30px;
+}
+
+.currency-swap {
+  padding-top: 18px;
+  text-align: center;
+}
+
+.currency-swap button:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.currency-swap button i {
+  color: white;
+}
+
+.currency-swap button:hover {
+  background-color: #242842;
+}
+
+.currency-swap-btn {
+  padding: 7px 16px 7px 16px;
+  background: rgb(214, 10, 10);
+  cursor: pointer;
+  border-radius: 7px;
+  text-align: center;
+  align-items: center;
+  outline: none;
+  border: 1px solid #000 ;
+  cursor: pointer;
+}
+
+.currensy-swap {
+  width: 120px;
+  height: 30px;
+}
+
+.currency-into {
+  padding-top: 17px;
+}
+
+.space {
+  padding-bottom: 60px;
+}
+
+.currency-header {
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+
+.currency-header div {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.currency-value {
+  padding: 17px 0px 0px 0px;
+  font-size: 20px;
+  margin: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  word-break: break-all;
+}
+
+.currency-result {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  word-break: break-all;
+}
+
+.currency-rate {
+  font-size: 21px;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  word-break: break-all;
+}
+
+.currency-update {
+  margin: 0;  
+  font-size: 14px;
+  font-style: italic;
+  color: #929292;
+  padding-top: 10px;
+}
+
+.currency-amount {
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+
+.amount-form {
+  color: #fff;
+}
